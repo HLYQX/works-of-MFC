@@ -169,7 +169,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		PostQuitMessage(0);
 		WinExec("C://WINDOWS//system32//calc.exe",SW_SHOW);
 		break;
-		int abc;
 	case WM_CLOSE:
 		if(IDYES==::MessageBoxA(hWnd,"Do you really want to quit?","Warning",MB_YESNO))
 			::DestroyWindow(hWnd);
