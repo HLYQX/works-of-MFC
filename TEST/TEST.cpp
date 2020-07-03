@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "TEST.h"
+/*test of Git*/
 
 #define MAX_LOADSTRING 100
 
